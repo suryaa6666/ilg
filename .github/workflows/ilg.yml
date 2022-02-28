@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "suryaa6666"
           git add -A
           
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
-          arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+          arr[0]="chore(bot): He can who thinks he can, and he can't who thinks he can't. This is an inexorable, indisputable law. —Pablo Picasso"
+          arr[1]="chore(bot): True friendship can afford true knowledge. It does not depend on darkness and ignorance. —Henry David Thoreau"
+          arr[2]="chore(bot): Difficulties are things that show a person what they are. —Epictetus"
+          arr[3]="chore(bot): Wisdom is always an overmatch for strength. —Phil Jackson"
+          arr[4]="chore(bot): Happiness depends upon ourselves. —Aristotle"
+          arr[5]="chore(bot): For it was not into my ear you whispered, but into my heart. It was not my lips you kissed, but my soul. —Judy Garland"
+          arr[6]="chore(bot): Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better. —Samuel Beckett"
+          arr[7]="chore(bot): Be here now. Be someplace else later. Is that so complicated? —David Bader"
+          arr[8]="chore(bot): Friendship is one mind in two bodies. —Mencius"
+          arr[9]="chore(bot): It is better to have enough ideas for some of them to be wrong, than to be always right by having no ideas at all. —Edward de Bono"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
